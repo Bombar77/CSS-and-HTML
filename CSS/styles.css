@@ -83,7 +83,7 @@ a {
 .link-arrow {
   color: var(--color-accent);
   text-transform: uppercase;
-  font-size: 2 rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ a {
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .list--tick .list--tick {
     margin-bottom: 0;
   }
@@ -207,7 +207,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -297,6 +297,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -746,8 +747,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-heading);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -775,35 +777,6 @@ a {
   max-width: 450px;
   margin: 0 auto;
 }
-/* flex-direction: column; */
-/* gap: 2rem; */
-/* align-items: center; */
-
-/* max-width: 90%; */
-/* }
-
-/* .block__plans .card { */
-/* max-width: 450px; */
-/* } */
-
-/* @media screen and (min-width: 768px) {
-  .block__plans {
-    flex-direction: row;
-    justify-content: center;
-  }
-  .block__plans .card {
-    margin: 6rem 2rem;
-    transition: scale 1s;
-  }
-  .block__plans .plan--popular {
-    /* transform: scale(1.1);
-    border: 2px solid red; */
-/* }
-
-  .block__plans .card:hover {
-    transform: scale(1.1);
-  }
-} */
 
 /* Features */
 
